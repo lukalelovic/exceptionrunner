@@ -11,6 +11,7 @@ public class Tester {
 	void passingTest() throws TimerException {
 		Assertions.assertTrue(Timer.timeMe(1000) >= 1000);
 	}
+
 	@DisplayName("Test Timer fail")
 	@Test
 	void failOverTest() throws TimerException {
